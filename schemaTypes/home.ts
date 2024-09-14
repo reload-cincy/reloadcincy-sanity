@@ -6,6 +6,11 @@ export default defineType({
   type: 'document',
   fields: [
     defineField({
+      name: 'gigsHeadline',
+      title: 'Gigs Headline',
+      type: 'string',
+    }),
+    defineField({
       name: 'firstSectionHeadline',
       title: 'First Section Headline',
       type: 'string',
