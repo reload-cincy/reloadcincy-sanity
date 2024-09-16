@@ -31,6 +31,7 @@ export default defineConfig({
 
             // Regular document types
             S.documentTypeListItem('event').title('Event'),
+            S.documentTypeListItem('member').title('Member'),
 
             S.listItem()
               .title('Contact Block')
