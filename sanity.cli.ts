@@ -8,5 +8,6 @@ export default defineCliConfig({
   studioHost: 'reloadcincy',
   deployment: {
     autoUpdates: true,
+    appId: 'mm167wcfwv4tokq788o2k98q',
   },
 });
